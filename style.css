@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body{
+  
+    font-size:15px;
+    line-height: 25px;
+    font-family: 'Poppins', sans-serif;
+ 
+    position: relative;
+    color: white;
+ 
+}
+
+h1{
+    font-weight:600 !important
+}
+
+.btn-primary{
+   background-color:#4A148C ;
+}
+.btn-secondary{
+    background-color: #6d2abe !important;
+}
+.banner {
+    overflow: hidden;
+    background-image: url(images/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    font-weight:500;
+}
+.overlay {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(16 16 233 / 41%);
+}
+
+.banner-text {
+    text-align: left;
+}
+
+.clrfix {
+    clear: both;
+}
+
+.google-form{
+    background-color:#6d2abe;
+    padding-top:40px ;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background: #4A148C;
+}
+
+.footer-icon {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-info {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-input {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.3s;
+    margin-right: 18px;
+}
+
+.social-link a {
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 21px;
+}
+
+ul li{
+    margin-left: 18px;
+}
+
+@media only screen and (max-width: 600px)  {
+    .overlay{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 420px)  {
+    .wrn-btn{
+        margin-left: 15px
+    }
+}
